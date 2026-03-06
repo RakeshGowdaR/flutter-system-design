@@ -14,13 +14,13 @@ Auth seems simple until it isn't:
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                    App Router                        │
+│                    App Router                       │
 │      Redirects based on AuthCubit state             │
 ├─────────────────────────────────────────────────────┤
-│                    AuthCubit                         │
+│                    AuthCubit                        │
 │    Single source of truth for auth state            │
 ├─────────────────────────────────────────────────────┤
-│                   AuthService                        │
+│                   AuthService                       │
 │     Login, logout, register, token management       │
 ├─────────────┬───────────────────────┬───────────────┤
 │ AuthRepo    │   TokenStorage        │  ApiClient    │
