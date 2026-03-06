@@ -88,7 +88,7 @@ Every Flutter app at scale has these layers:
 
 ```
 ┌─────────────────────────────────────────────┐
-│                    UI Layer                  │
+│                    UI Layer                 │
 │         Screens, Widgets, Animations        │
 ├─────────────────────────────────────────────┤
 │               State Management              │
